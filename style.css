@@ -1,0 +1,253 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+body{
+   background-color: rgb(246, 246, 246);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+header{
+    position: relative;
+    background-color: rgba(240, 239, 239, 0.73);
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.navita{
+    margin-right: 3%;
+}
+.navita a{
+
+    text-decoration: none;
+    line-height: 10%;
+    padding: 10px 20px;
+    width: 80%;
+    
+}
+.navita a:hover{
+    box-shadow: 0px 2px 10px 5px rgba(52, 50, 50, 0.219);
+}
+#tut{
+    color: red;
+    font-weight: 600;
+    
+}
+#instru{
+    color:rgb(16, 198, 16);
+    font-weight: 600;
+  
+}
+#bac{
+    height: 80%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: url('img/second.jpg'); */
+    
+}
+#logregister{
+    margin-left: 10%;
+    
+    
+}
+#logregister a{
+    color: white;
+    padding: 0.5%;
+    margin-left:0.5% ;
+    background: linear-gradient(to right,red,blue);
+    text-decoration: none;
+}
+#getlogo{
+    height: 2%;
+    width: 150px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+#getlogo:hover{
+    transform: scale(1.2);
+}
+.btn{
+   height: 36px;
+   width: 20%; 
+   overflow: hidden;
+   cursor: pointer;
+   color: white;
+   background: linear-gradient(to left, darkblue, darkred);
+   border: none;
+   transition: transform 0.3s;
+}
+.btn:hover{
+    transform:scale(1.16);
+}
+#clas{
+    height: 50%;
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    overflow: hidden;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.zo-im {
+    height: 100%;
+    width: 100%; /* Make the image fill the container */
+    transition: transform 0.3s; /* Add a smooth transition effect */
+}
+.zo-im:hover{
+    transform: scale(1.2);
+}
+ #current{
+    margin-left: 10%;
+    height: 35%;
+    width: 30%;
+    padding-left: 2%;
+    padding-top: 1.29%;
+    border-radius: 3%;
+    border-top: 1px solid gray;
+ }
+table tr th:hover{
+    box-shadow: 0px 2px 10px 5px rgba(52, 50, 50, 0.219);
+}
+/* Style the select element */
+.mySelect {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: transparent;
+    border-radius: 7px;
+}
+
+/* Style the option elements */
+.mySelect option {
+    height: 100px;
+    background-color: transparent;
+    color: red; /* You can also set the text color */
+}
+.myw{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background: transparent;
+    border-radius: 7px;
+}
+.myw:hover{
+    box-shadow: 0px 2px 10px 5px rgba(52, 50, 50, 0.219);
+}
+#alg{
+    margin-left: auto;
+    margin-right: auto;
+}
+#bor{
+    height: 16%;
+    width: 100%;
+    
+}
+
+#myws{
+    margin-top: 2.09%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80%;
+}
+.myws1{
+    box-shadow: 0px 10px 20px 0px rgb(119, 118, 118, 0.578);
+    border-radius: 1%;
+    margin-top: 2.09%;
+    width: 49%;
+    height: 100%;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-image: url('img/Mr.Pasang\ Dorje\ Tamang.jpg');
+}
+.myws2{
+    box-shadow: 0px 10px 20px 0px rgb(119, 118, 118, 0.578);
+    border-radius: 1%;
+    margin-top: 2.09%;
+    width: 49%;
+    height: 100%;
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('img/Mr.Pasang Dorje Tamang.jpg');
+}
+.myws1:hover{
+    transform: scale(1.05);
+}
+.myws2:hover{
+    transform: scale(1.05);
+}
+#claq h4{
+    line-height: 30px;
+    padding-top: 2%;
+    color: rgb(0, 0, 0);
+    
+}
+#lis li{
+    color: black;
+    font-size: 11px;
+    line-height: 30px;
+}
+#foots{
+    margin-top: 50%;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(3, 36, 77);
+}
+.contact{
+    padding-top: 4%;
+    padding-left: 10%;
+    text-align: left;
+    width: 33%;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    float: left;
+}
+
+.contact h2, h3{
+    
+    color: aliceblue;
+}
+.contact a:hover{
+    color: white;
+}
+.navig{
+    padding-top: 3%;
+    padding-left: 10%;
+    text-align: left;
+    width: 33%;
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+    float: left;
+}
+.navig h2{
+    color: white;
+    line-height: 50px;
+}
+.navig a{
+    
+    text-decoration: none;
+    font-size: 14px;
+    color: gray;
+    line-height: 50px;
+    transition: transform 0.1s;
+
+}
+.navig a:hover{
+    color: white;
+    font-size: 19px;
+    
+}
